@@ -13,7 +13,7 @@ import json
 __plugin__ = "plugin.video.sportube"
 __author__ = "Nightflyer"
 
-Addon = xbmcaddon.Addon(id=__plugin__)
+Addon = xbmcaddon.Addon()
 
 # plugin handle
 handle = int(sys.argv[1])
